@@ -1,5 +1,8 @@
-﻿using System.CommandLine;
+﻿using System.Collections.Specialized;
+using System.CommandLine;
 using System.Globalization;
+using System.Net.Http.Headers;
+using System.Web;
 using Bogus;
 using CsvHelper;
 
@@ -72,25 +75,119 @@ public static class Program
             OverrideFileWithNewRecords(records, destFile!);
         }, csvFileOption, destFileOption, columnsOption);
 
+        var removeValuesFromColumnsCommand = new Command("remove-values", "Remove values from specified columns")
+        {
+            csvFileOption, destFileOption, columnsOption
+        };
+        csvCommand.AddCommand(removeValuesFromColumnsCommand);
+        removeValuesFromColumnsCommand.SetHandler((csvFile, destFile, columns) =>
+        {
+            IList<dynamic> records = ReadCsvAsRecords(csvFile!);
+            string[] columnsToRemoveValues = columns.Split(',');
+            RemoveValuesFromColumns(records, columnsToRemoveValues);
+            OverrideFileWithNewRecords(records, destFile!);
+        }, csvFileOption, destFileOption, columnsOption);
+
+        var geoEncodingCommand = new Command("geocoding",
+            "Concatenate a single zipcode columns, and add new lat, long columns")  {
+            csvFileOption,destFileOption,columnsOption
+        };
+        csvCommand.AddCommand(geoEncodingCommand);
+
+        geoEncodingCommand.SetHandler( (csvFile, destFile, columns) =>
+        {
+            IList<dynamic> records = ReadCsvAsRecords(csvFile!);
+            // we will reuse httpclient per console command
+            using HttpClient client = new();
+            client.DefaultRequestHeaders.Accept.Clear();
+            client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
+            IEnumerable<string> responses = GetGeoLocation(client, records, columns, 250, TimeSpan.FromSeconds(65));
+            foreach (string response in responses)
+            {
+                Console.WriteLine(response);
+            }
+            OverrideFileWithNewRecords(records, destFile!);
+        }, csvFileOption, destFileOption, columnsOption);
+
         return await rootCommand.InvokeAsync(args);
     }
 
-    private static void RemoveColumnsFromRecords(IList<dynamic> records, string[] columnsToRemove)
+    static IEnumerable<string> GetGeoLocation(HttpClient client, IList<dynamic> records, string zipCodeColumn, int batchSize, TimeSpan coolDownDuration)
+    {
+
+        if (batchSize < 1)
+        {
+            throw new InvalidOperationException($"{nameof(batchSize)} cannot be less than 1");
+        }
+
+        if (zipCodeColumn.Split(',').Length != 1)
+        {
+            throw new ArgumentException("Must be a single column name for zipcode.", nameof(zipCodeColumn));
+        }
+
+        var data = new List<string>();
+
+        for (int index = 0; index < records.Count; index++)
+        {
+            Task<HttpResponseMessage> response = InvokeGeocodingApi(client, records, zipCodeColumn, index);
+            string content = response.Result.Content.ReadAsStringAsync().Result;
+            data.Add(content);
+
+            if (index % batchSize == 0)
+            {
+                Thread.Sleep(coolDownDuration);
+            }
+        }
+
+        return data;
+    }
+
+    private static async Task<HttpResponseMessage> InvokeGeocodingApi(HttpClient client, IList<dynamic> records, string zipCodeColumn, int index)
+    {
+        var builder = new UriBuilder("https://developers.onemap.sg/commonapi/search");
+        NameValueCollection query = HttpUtility.ParseQueryString(builder.Query);
+        ((IDictionary<string, object?>) records[index]).TryGetValue(zipCodeColumn, out object? zipcode);
+        query["searchVal"] = zipcode == null ? string.Empty : zipcode.ToString()?.Trim();
+        query["returnGeom"] = "Y";
+        query["getAddrDetails"] = "N";
+        query["pageNum"] = "1";
+        builder.Query = query.ToString();
+        string url = builder.ToString();
+        return await client.GetAsync(url);
+
+    }
+
+    private static void RemoveValuesFromColumns(IList<dynamic> records, string[] columns)
     {
         if (records == null)
         {
             throw new ArgumentNullException(nameof(records));
         }
 
-        if (columnsToRemove.Length == 0)
+        foreach (dynamic record in records)
         {
-            throw new ArgumentException("Value cannot be an empty collection.", nameof(columnsToRemove));
+            var row = (IDictionary<string, object>)record;
+            foreach (string columnName in columns)
+            {
+                if (row.ContainsKey(columnName))
+                {
+                    row[columnName] = string.Empty;
+                }
+            }
+        }
+    }
+
+    private static void RemoveColumnsFromRecords(IList<dynamic> records, string[] columns)
+    {
+        if (records == null)
+        {
+            throw new ArgumentNullException(nameof(records));
         }
 
         foreach (dynamic record in records)
         {
             var row = (IDictionary<string, object>)record;
-            foreach (string columnName in columnsToRemove)
+            foreach (string columnName in columns)
             {
                 bool isSuccessful = row.Remove(columnName);
                 if (!isSuccessful)
