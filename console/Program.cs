@@ -94,6 +94,7 @@ public static class Program
         };
         csvCommand.AddCommand(geoEncodingCommand);
 
+        // Geocoding Command Not tested for batching, but tested for single invocation.
         geoEncodingCommand.SetHandler( (csvFile, destFile, columns) =>
         {
             IList<dynamic> records = ReadCsvAsRecords(csvFile!);
@@ -112,6 +113,7 @@ public static class Program
         return await rootCommand.InvokeAsync(args);
     }
 
+    // untested code
     static IEnumerable<string> GetGeoLocation(HttpClient client, IList<dynamic> records, string zipCodeColumn, int batchSize, TimeSpan coolDownDuration)
     {
 

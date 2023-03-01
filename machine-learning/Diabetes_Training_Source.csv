@@ -1,0 +1,401 @@
+RecNum,Pregnancies,Glucose,BloodPressure,SkinThickness,Insulin,BMI,DiabetesPedigreeFunction,Age,Outcome,FirstName,LastName,DisplayName,Address,Country,ZipCode
+1,6,148,72,35,0,33.6,0.627,50,1,Sincere,Dare,Sincere Dare,"685 Schuster Squares, Port Julietport, Panama",PA,62030-9555
+3,8,183,64,0,0,23.3,0.672,32,1,Guiseppe,Okuneva,Guiseppe Okuneva,"39739 Upton Keys, South Florencio, Indonesia",FO,65382
+5,0,137,40,35,168,43.1,2.288,33,1,Archibald,Dooley,Archibald Dooley,"154 Schumm Tunnel, West Bud, United Kingdom",PG,34159-3836
+7,3,78,50,32,88,31,0.248,26,1,Malinda,Wilderman,Malinda Wilderman,"5469 Zboncak Divide, Chloeview, Mauritius",AM,74912-4553
+9,2,197,70,45,543,30.5,0.158,53,1,Aliyah,Fadel,Aliyah Fadel,"02816 Howell Parkways, Hillardland, Sri Lanka",NZ,72105
+10,8,125,96,0,0,0,0.232,54,1,Kiarra,Johns,Kiarra Johns,"41959 Kelvin Locks, Hellerberg, United Arab Emirates",MR,11688
+12,10,168,74,0,0,38,0.537,34,1,Audra,Bechtelar,Audra Bechtelar,"21966 Daugherty Trail, Brownton, Central African Republic",KR,30604-2443
+14,1,189,60,23,846,30.1,0.398,59,1,Benjamin,Crist,Benjamin Crist,"526 Raynor Mountain, Port Eloisa, Ecuador",PL,92638
+15,5,166,72,19,175,25.8,0.587,51,1,Karli,Weimann,Karli Weimann,"05670 Rahsaan Fields, Rutherfordland, Congo",BD,92575-1907
+16,7,100,0,0,0,30,0.484,32,1,Valentin,Pacocha,Valentin Pacocha,"523 Blanda Mountain, Keltonside, French Southern Territories",KW,95844-6185
+17,0,118,84,47,230,45.8,0.551,31,1,Noble,Botsford,Noble Botsford,"202 Isidro Islands, North Maximillian, Zambia",YT,28841
+18,7,107,74,0,0,29.6,0.254,31,1,Alejandra,Zemlak,Alejandra Zemlak,"53346 Pollich Center, North Willard, French Guiana",SH,92390-1625
+20,1,115,70,30,96,34.6,0.529,32,1,Seth,Davis,Seth Davis,"711 Hortense Hills, Presleymouth, Gabon",NG,98439-0040
+23,7,196,90,0,0,39.8,0.451,41,1,Troy,Ebert,Troy Ebert,"21140 Willms Lane, Brendonville, Anguilla",FR,11019-6212
+24,9,119,80,35,0,29,0.263,29,1,Cynthia,Wintheiser,Cynthia Wintheiser,"424 Rosendo Ports, Buddyville, El Salvador",LS,12627-2361
+25,11,143,94,33,146,36.6,0.254,51,1,Robert,Gutkowski,Robert Gutkowski,"862 Dameon Union, New Elsie, Djibouti",CX,79567-0855
+26,10,125,70,26,115,31.1,0.205,41,1,Ramiro,Jerde,Ramiro Jerde,"873 Wolff Prairie, Lyricstad, United States Minor Outlying Islands",DK,24029-8043
+27,7,147,76,0,0,39.4,0.257,43,1,Adolfo,Goldner,Adolfo Goldner,"424 Rigoberto Lock, Halvorsontown, Cameroon",DK,75863-1039
+32,3,158,76,36,245,31.6,0.851,28,1,Icie,Lebsack,Icie Lebsack,"15579 Ziemann Knoll, Hettingerport, Bhutan",CD,44323
+38,9,102,76,37,0,32.9,0.665,46,1,Raleigh,Marvin,Raleigh Marvin,"82499 Myrtle Walk, New Clementine, New Caledonia",KH,15657
+39,2,90,68,42,0,38.2,0.503,27,1,Peyton,Dietrich,Peyton Dietrich,"9611 Murphy Mountain, Lake Fredamouth, Falkland Islands (Malvinas)",JM,64594-1497
+40,4,111,72,47,207,37.1,1.39,56,1,Adrienne,Aufderhar,Adrienne Aufderhar,"407 Grady Summit, Lake Caseychester, Libyan Arab Jamahiriya",GQ,16427-1699
+44,9,171,110,24,240,45.4,0.721,54,1,Antonina,Doyle,Antonina Doyle,"958 Ava Falls, West Jaylin, Qatar",TG,65274-7066
+46,0,180,66,39,0,42,1.893,25,1,Aric,Sporer,Aric Sporer,"8726 Solon Parks, Dylanmouth, Barbados",MO,26936
+49,7,103,66,32,0,39.1,0.344,31,1,Sunny,Mitchell,Sunny Mitchell,"53121 Jenkins Fields, East Michaleport, Djibouti",YT,57523-3911
+54,8,176,90,34,300,33.7,0.467,58,1,Edgar,Lemke,Edgar Lemke,"8123 Idell Views, New Cedrickhaven, Kenya",GY,48869
+57,7,187,68,39,304,37.7,0.254,41,1,Lonny,Deckow,Lonny Deckow,"652 George Brook, East Rachaelfort, Morocco",TN,38306-6066
+62,8,133,72,0,0,32.9,0.27,39,1,Nova,Welch,Nova Welch,"5744 Dorothy Plains, Karleyport, Brazil",MG,95906-7275
+65,7,114,66,0,0,32.8,0.258,42,1,Amelia,Gusikowski,Amelia Gusikowski,"760 Ryan Forks, North Rogers, Serbia",MZ,01407
+67,0,109,88,30,0,32.5,0.855,38,1,Emilio,Fritsch,Emilio Fritsch,"511 Kulas Rapid, Lake Sageberg, Georgia",MQ,96378-0161
+71,2,100,66,20,90,32.9,0.867,28,1,Monserrat,Graham,Monserrat Graham,"7705 Schroeder River, Smithamburgh, Micronesia",CM,93395-3622
+73,13,126,90,0,0,43.4,0.583,42,1,Muriel,Russel,Muriel Russel,"5737 Dexter Harbor, South Cruz, Antigua and Barbuda",BQ,20804
+79,0,131,0,0,0,43.2,0.27,26,1,Nakia,Mitchell,Nakia Mitchell,"19143 Hammes Creek, Port Novellaburgh, Suriname",EH,25140-3128
+85,5,137,108,0,0,48.8,0.227,37,1,Arianna,Beatty,Arianna Beatty,"3004 Enrico Burg, Kozeystad, Italy",MF,11131
+89,15,136,70,32,110,37.1,0.153,43,1,Helga,Schowalter,Helga Schowalter,"376 Maggio Drive, East Arnoside, Namibia",YT,79327
+94,4,134,72,0,0,23.8,0.277,60,1,Prudence,Pfannerstill,Prudence Pfannerstill,"101 Swaniawski Vista, Solonstad, Saint Martin",FK,44272
+100,1,122,90,51,220,49.7,0.325,31,1,Raul,Wisoky,Raul Wisoky,"0329 Wilderman Club, Nikolaustown, Japan",AX,82366-8712
+101,1,163,72,0,0,39,1.222,33,1,Roxane,Prohaska,Roxane Prohaska,"59753 Christ Overpass, Port Shanieland, Netherlands",YT,99783-4693
+110,0,95,85,25,36,37.4,0.247,24,1,Loy,Denesik,Loy Denesik,"3207 Dane Corners, Hettingerland, Andorra",PM,55345
+111,3,171,72,33,135,33.3,0.199,24,1,Abbie,Steuber,Abbie Steuber,"48722 Austen Terrace, Schmittstad, Botswana",BA,84852
+112,8,155,62,26,495,34,0.543,46,1,Obie,Moore,Obie Moore,"058 Rahsaan Tunnel, East Donnellberg, Brazil",UG,57295
+115,7,160,54,32,175,30.5,0.588,39,1,Braxton,Gerlach,Braxton Gerlach,"59646 Jodie Passage, New Ima, Guatemala",PS,97747-6389
+116,4,146,92,0,0,31.2,0.539,61,1,Arlo,Schulist,Arlo Schulist,"45594 Dedric Fork, South Yolanda, South Georgia and the South Sandwich Islands",KY,67546-7022
+117,5,124,74,0,0,34,0.22,38,1,Paolo,Reinger,Paolo Reinger,"5704 Lakin Park, West Claudland, Sudan",SR,25275-2860
+121,0,162,76,56,100,53.2,0.759,25,1,Hettie,Miller,Hettie Miller,"47091 Autumn Alley, Sengershire, Egypt",SH,62536
+125,0,113,76,0,0,33.3,0.278,23,1,Reilly,Beer,Reilly Beer,"271 Becker Curve, North Sydney, Micronesia",TD,03737
+126,1,88,30,42,99,55,0.496,26,1,Sophia,Lubowitz,Sophia Lubowitz,"224 Jaydon Springs, North Vickie, Grenada",BO,40468
+129,1,117,88,24,145,34.5,0.403,40,1,Curtis,Bergstrom,Curtis Bergstrom,"568 Mariana Views, Bashirianhaven, Tuvalu",LB,96530
+130,0,105,84,0,0,27.9,0.741,62,1,Jayda,Paucek,Jayda Paucek,"15337 Feest Shoal, Parisianport, Sri Lanka",BA,88655
+131,4,173,70,14,168,29.7,0.361,33,1,Lisa,Zemlak,Lisa Zemlak,"3827 Schiller Motorway, Geovannistad, Mongolia",BM,14045
+132,9,122,56,0,0,33.3,1.114,33,1,Earline,Weimann,Earline Weimann,"75380 Sporer Lane, North Sammy, Solomon Islands",BW,00451
+133,3,170,64,37,225,34.5,0.356,30,1,Tyler,Bradtke,Tyler Bradtke,"2500 Francesca Port, Bryceville, Moldova",CF,90648-2342
+144,10,108,66,0,0,32.4,0.272,42,1,Lizeth,Bechtelar,Lizeth Bechtelar,"73933 Ayla Shores, West Shirley, Bulgaria",GT,24765
+153,9,156,86,28,155,34.3,1.189,42,1,Corbin,Homenick,Corbin Homenick,"8908 Raynor Corner, Laurettaville, Lithuania",MX,93867-3668
+155,8,188,78,0,0,47.9,0.137,43,1,Elbert,Kub,Elbert Kub,"48637 Jorge Way, Blandaville, Bolivia",IR,36298
+156,7,152,88,44,0,50,0.337,36,1,Garett,Gislason,Garett Gislason,"0470 Turcotte Landing, New Kaley, Taiwan",UG,71382
+160,17,163,72,41,114,40.9,0.817,47,1,Derick,Armstrong,Derick Armstrong,"2953 Hermann Village, Suzannefort, Netherlands Antilles",BY,54599
+165,0,131,88,0,0,31.6,0.743,32,1,Theo,O'Connell,Theo O'Connell,"9169 Kertzmann Alley, North Hoseaton, Botswana",GQ,12740
+166,6,104,74,18,156,29.9,0.722,41,1,Wilma,Murray,Wilma Murray,"93320 Kareem Mission, Annabellshire, Seychelles",LA,03767
+171,6,102,82,0,0,30.8,0.18,36,1,Rachael,Dicki,Rachael Dicki,"62456 Fern Land, Kuphalland, Saint Martin",HK,76773-4032
+172,6,134,70,23,130,35.4,0.542,29,1,Logan,Witting,Logan Witting,"21242 Esperanza Street, Stephanyfurt, Afghanistan",NO,40234
+176,8,179,72,42,130,32.7,0.719,36,1,Maximus,Oberbrunner,Maximus Oberbrunner,"508 Annabelle Summit, Lake Michaelstad, El Salvador",CL,02059
+178,0,129,110,46,130,67.1,0.319,26,1,Hans,Crona,Hans Crona,"53924 Pacocha Lake, Lednerbury, Greece",SG,26334
+180,5,130,82,0,0,39.1,0.956,37,1,Bernard,Williamson,Bernard Williamson,"0397 D'Amore Village, Lake Dejonshire, Gibraltar",CK,45052
+186,7,194,68,28,0,35.9,0.745,41,1,Marie,Reynolds,Marie Reynolds,"950 Andre Skyway, Luigiland, Guatemala",EH,43995-1250
+187,8,181,68,36,495,30.1,0.615,60,1,Reyes,Stiedemann,Reyes Stiedemann,"5776 Spencer Isle, East Ludieshire, Monaco",ZW,21689
+188,1,128,98,41,58,32,1.321,33,1,Teagan,Murphy,Teagan Murphy,"54284 Libbie Prairie, New Isaistad, China",GA,36541
+189,8,109,76,39,114,27.9,0.64,31,1,Mona,Watsica,Mona Watsica,"4981 Blanda Isle, Treutelfurt, Costa Rica",VG,12831
+190,5,139,80,35,160,31.6,0.361,25,1,Pauline,Ullrich,Pauline Ullrich,"4331 Ruth Mountain, Kochberg, Finland",BI,38353-5575
+193,7,159,66,0,0,30.4,0.383,36,1,Avery,Brown,Avery Brown,"5140 Madaline Stream, North Josianne, Uzbekistan",LK,86019-6968
+194,11,135,0,0,0,52.3,0.578,40,1,Sydni,Zulauf,Sydni Zulauf,"5741 Vaughn Valleys, Wuckertport, Angola",TN,80233
+196,5,158,84,41,210,39.4,0.395,29,1,Harvey,Wolff,Harvey Wolff,"143 O'Hara Haven, Kubmouth, South Africa",TR,00357-5368
+198,3,107,62,13,48,22.9,0.678,23,1,Carmel,Balistreri,Carmel Balistreri,"555 Trantow Lake, Mikelchester, Antarctica (the territory South of 60 deg S)",ES,69704
+199,4,109,64,44,99,34.8,0.905,26,1,Omer,Dooley,Omer Dooley,"8685 Armstrong Street, Lake Norbertostad, Andorra",EH,44922-2930
+200,4,148,60,27,318,30.9,0.15,29,1,Bradley,Hand,Bradley Hand,"3834 Oberbrunner Island, Thielmouth, Puerto Rico",TZ,06926-1333
+207,8,196,76,29,280,37.5,0.605,57,1,Maci,Lockman,Maci Lockman,"974 Kris Mountain, West Adrianna, Indonesia",JO,77865
+208,5,162,104,0,0,37.7,0.151,52,1,Rico,Fay,Rico Fay,"7417 Edwardo Key, East Zechariahfort, Somalia",TF,94882-4302
+210,7,184,84,33,0,35.5,0.355,41,1,Jadon,Towne,Jadon Towne,"8324 Padberg Springs, Clareland, Cuba",DK,71746
+214,0,140,65,26,130,42.6,0.431,24,1,Keanu,Watsica,Keanu Watsica,"081 Marielle Wall, North Torreyhaven, New Caledonia",NU,54145
+215,9,112,82,32,175,34.2,0.26,36,1,Ignacio,Turner,Ignacio Turner,"72288 Mosciski Tunnel, Port Elmore, Panama",JP,83425
+216,12,151,70,40,271,41.8,0.742,38,1,Carlie,Doyle,Carlie Doyle,"3210 Lang Parks, East Ashlynn, Turkmenistan",AE,11871
+217,5,109,62,41,129,35.8,0.514,25,1,Berta,Little,Berta Little,"3111 Bogisich Islands, New Barton, Ghana",AG,27966
+219,5,85,74,22,0,29,1.224,32,1,Eric,Johnston,Eric Johnston,"1238 Bogisich Manors, Boscofort, Thailand",FM,49998-3948
+220,5,112,66,0,0,37.8,0.261,41,1,Marion,Hegmann,Marion Hegmann,"423 Payton Path, Port Kassandra, Faroe Islands",SY,87560-5192
+221,0,177,60,29,478,34.6,1.072,21,1,Darian,Bailey,Darian Bailey,"174 Austyn Courts, West Emanuelberg, American Samoa",GY,55909-6099
+222,2,158,90,0,0,31.6,0.805,66,1,Katelynn,Johnson,Katelynn Johnson,"797 Craig Vista, Prosaccomouth, Cook Islands",CX,88765-5523
+228,3,162,52,38,0,37.2,0.652,24,1,Trinity,Lubowitz,Trinity Lubowitz,"74563 Felicia Port, Friesenside, Greenland",MO,24983
+231,4,142,86,0,0,44,0.645,22,1,Nella,Ferry,Nella Ferry,"995 Eden Lake, East Maida, Zimbabwe",LV,42926-5586
+232,6,134,80,37,370,46.2,0.238,46,1,Paula,Heathcote,Paula Heathcote,"11291 Pamela Junctions, Eloiseview, Bangladesh",MC,74023-0682
+236,4,171,72,0,0,43.6,0.479,26,1,Adrian,Luettgen,Adrian Luettgen,"59476 Effertz Estates, Bergeland, Latvia",SB,48942-1774
+237,7,181,84,21,192,35.9,0.586,51,1,Landen,Lehner,Landen Lehner,"354 Johnston Mountains, DuBuqueshire, Guinea",RS,68194-9754
+238,0,179,90,27,0,44.1,0.686,23,1,Claudine,Williamson,Claudine Williamson,"9750 Lera Meadow, Langoshton, Dominican Republic",CY,50734-5195
+239,9,164,84,21,0,30.8,0.831,32,1,Dylan,Murphy,Dylan Murphy,"44428 Romaguera Light, Lake Jodieberg, Cocos (Keeling) Islands",RW,51787-7377
+243,3,139,54,0,0,25.6,0.402,22,1,Amiya,Raynor,Amiya Raynor,"82792 Sawayn Highway, Alexannefurt, Saudi Arabia",YT,31212-7434
+244,6,119,50,22,176,27.1,1.318,33,1,Kattie,Rowe,Kattie Rowe,"47002 Adelle Ports, South Maci, Yemen",IL,40000-7805
+246,9,184,85,15,0,30,1.213,49,1,Jessica,Thompson,Jessica Thompson,"702 Funk Hills, New Dennis, Svalbard & Jan Mayen Islands",MS,78696-6188
+255,12,92,62,7,258,27.6,0.926,44,1,Vanessa,Gleason,Vanessa Gleason,"2415 Dickinson Lake, West Gina, Wallis and Futuna",BF,57922-2413
+256,1,113,64,35,0,33.6,0.543,21,1,Skylar,Gerlach,Skylar Gerlach,"879 Predovic Overpass, Greenfelderbury, Austria",BD,76064
+260,11,155,76,28,150,33.3,1.353,51,1,Jimmy,Nicolas,Jimmy Nicolas,"670 Imelda Village, Hilpertborough, French Polynesia",CA,52874
+262,3,141,0,0,0,30,0.761,27,1,Lourdes,Ziemann,Lourdes Ziemann,"8454 Marjory Summit, Lake Giovanni, Netherlands Antilles",FI,72610-9190
+265,4,123,62,0,0,32,0.226,35,1,Nikki,Walsh,Nikki Walsh,"98675 Dallas View, Roweton, South Georgia and the South Sandwich Islands",FO,49595
+267,0,138,0,0,0,36.3,0.933,25,1,Savanna,O'Keefe,Savanna O'Keefe,"0950 Fausto Plain, Walkerstad, Cuba",BY,58595
+270,2,146,0,0,0,27.5,0.24,28,1,Helen,Stracke,Helen Stracke,"6058 Monty Mall, West Keagan, Turkey",MX,62679-8811
+271,10,101,86,37,0,45.6,1.136,38,1,Ariel,Heaney,Ariel Heaney,"3260 Homenick Mountains, Allenhaven, Mauritania",GB,50526-2572
+277,7,106,60,24,0,26.5,0.296,29,1,Donna,Homenick,Donna Homenick,"1614 Magnus Heights, Shyannview, Sweden",AF,25253
+281,0,146,70,0,0,37.9,0.334,28,1,Althea,Kohler,Althea Kohler,"41664 O'Keefe Unions, East Keyshawnfort, Nepal",IT,92489
+284,7,161,86,0,0,30.4,0.165,47,1,Luisa,Moore,Luisa Moore,"46833 Una Bypass, Paucekside, Oman",CO,07943
+285,2,108,80,0,0,27,0.259,52,1,Maximilian,Kessler,Maximilian Kessler,"1655 Tanya Prairie, Bryonshire, New Zealand",BF,61828
+288,1,119,86,39,220,45.6,0.808,29,1,Dominic,Simonis,Dominic Simonis,"4101 Rippin Wells, Port Rodrigo, Slovakia (Slovak Republic)",FJ,59777-4076
+292,0,107,62,30,74,36.6,0.757,25,1,Keegan,Cormier,Keegan Cormier,"81675 O'Hara Crossroad, Port Burdette, Cote d'Ivoire",GY,48072-8768
+293,2,128,78,37,182,43.3,1.224,31,1,Jacky,Bradtke,Jacky Bradtke,"1851 Runte View, South Beth, Benin",NO,53206
+294,1,128,48,45,194,40.5,0.613,24,1,Johathan,Hessel,Johathan Hessel,"8931 O'Reilly Skyway, Pfannerstillmouth, New Zealand",FI,73726-2297
+297,2,146,70,38,360,28,0.337,29,1,Timmy,Christiansen,Timmy Christiansen,"85154 Emanuel Square, Goldnerbury, Vietnam",ME,17430-8769
+299,14,100,78,25,184,36.6,0.412,46,1,Eldora,Haley,Eldora Haley,"76760 Maggio Course, Aufderharfort, Cocos (Keeling) Islands",KG,38033-1402
+301,0,167,0,0,0,32.3,0.839,30,1,Evie,Moore,Evie Moore,"55709 Reichel Isle, Schaefermouth, Saudi Arabia",DZ,73751-5137
+302,2,144,58,33,135,31.6,0.422,25,1,Rosendo,Windler,Rosendo Windler,"715 Langworth Hill, North Elinore, Iran",LK,44751
+304,5,115,98,0,0,52.9,0.209,28,1,Kay,Little,Kay Little,"74521 Pouros Mountain, South Kalliemouth, American Samoa",GU,50428
+307,10,161,68,23,132,25.5,0.326,47,1,Peggie,Kris,Peggie Kris,"38624 Maurice Dam, Legrostown, Somalia",SK,60292
+309,0,128,68,19,180,30.5,1.391,25,1,Shawn,Wuckert,Shawn Wuckert,"0122 Emilia Avenue, East Michel, Grenada",KN,38342-1643
+310,2,124,68,28,205,32.9,0.875,30,1,Lindsey,Quitzon,Lindsey Quitzon,"102 Loyal Throughway, Dorrisland, Antigua and Barbuda",TC,11618-1458
+313,2,155,74,17,96,26.6,0.433,27,1,Lue,Heller,Lue Heller,"966 Stiedemann Crest, North Gennaro, Australia",MQ,96195-2848
+315,7,109,80,31,0,35.9,1.127,43,1,Arvid,Zieme,Arvid Zieme,"5952 Leannon Forge, West Inesborough, Haiti",GM,35470
+318,3,182,74,0,0,30.5,0.345,29,1,Antone,MacGyver,Antone MacGyver,"3519 Katlyn Inlet, Sadyeville, Mauritania",CK,05443
+320,6,194,78,0,0,23.5,0.129,59,1,Emiliano,Parisian,Emiliano Parisian,"484 Cummings Street, Port Sincere, Slovenia",NR,99527
+322,3,112,74,30,0,31.6,0.197,25,1,Annabelle,Hansen,Annabelle Hansen,"1592 Orrin Fords, Noeberg, Cape Verde",GA,91502-5292
+323,0,124,70,20,0,27.4,0.254,36,1,Nella,Kuvalis,Nella Kuvalis,"52323 Waelchi Forge, West Lavon, Gabon",HN,03155-7393
+324,13,152,90,33,29,26.8,0.731,43,1,Magali,Prohaska,Magali Prohaska,"070 Lowe Via, West Gardner, Guinea-Bissau",CU,80257-9780
+327,1,122,64,32,156,35.1,0.692,30,1,Danika,Murazik,Danika Murazik,"65584 Jacobson Shore, Malvinamouth, Kiribati",GS,20169-9577
+329,2,102,86,36,120,45.5,0.127,23,1,Candido,Kautzer,Candido Kautzer,"497 Turcotte River, Romaguerastad, Nepal",PK,73523-4140
+333,1,180,0,0,0,43.3,0.282,41,1,Jana,Thiel,Jana Thiel,"2651 Emmerich Pines, Thielside, Martinique",TL,86516
+338,5,115,76,0,0,31.2,0.343,44,1,Gilberto,Kreiger,Gilberto Kreiger,"36316 Baumbach Meadows, North Rick, South Africa",DK,24905-8949
+339,9,152,78,34,171,34.2,0.893,33,1,Esta,Blick,Esta Blick,"4375 Wunsch Stravenue, Keanumouth, Faroe Islands",TW,82450-4612
+340,7,178,84,0,0,39.9,0.331,41,1,Lizzie,Pollich,Lizzie Pollich,"013 Gerlach Creek, Port Dalefurt, Norway",LU,07966
+350,5,0,80,32,0,41,0.346,37,1,Marisa,Brown,Marisa Brown,"26036 Bashirian Loaf, North Braeden, Kazakhstan",SD,54698
+356,9,165,88,0,0,30.4,0.302,49,1,Wilbert,Mills,Wilbert Mills,"815 Mueller Island, Adamsberg, Ethiopia",UY,06860-5525
+357,1,125,50,40,167,33.3,0.962,28,1,Haleigh,Wunsch,Haleigh Wunsch,"7264 Coleman Circles, West Isabellefurt, Falkland Islands (Malvinas)",BW,04181
+358,13,129,0,30,0,39.9,0.569,44,1,Rowan,Oberbrunner,Rowan Oberbrunner,"403 Green Stream, New Lucienneton, Japan",RO,82955
+360,1,196,76,36,249,36.5,0.875,29,1,Lavinia,Schmitt,Lavinia Schmitt,"48458 Sincere Knolls, Lake Aaliyah, Greece",GL,42360
+361,5,189,64,33,325,31.2,0.583,29,1,Rylan,Ankunding,Rylan Ankunding,"885 Moses Parks, North Lewis, Papua New Guinea",LC,90547-0866
+364,4,146,78,0,0,38.5,0.52,67,1,Nicole,Bartoletti,Nicole Bartoletti,"973 Hagenes Coves, East Clovistown, Qatar",FO,62073-6854
+367,6,124,72,0,0,27.6,0.368,29,1,Dianna,Schaefer,Dianna Schaefer,"06609 Dare Oval, West Dallin, Bulgaria",TM,27798
+370,1,133,102,28,140,32.8,0.234,45,1,Chaya,Emmerich,Chaya Emmerich,"3630 Tillman Islands, West Medaview, Lithuania",AR,13026-3986
+371,3,173,82,48,465,38.4,2.137,25,1,Jermey,Goodwin,Jermey Goodwin,"004 Glover Valley, Zackeryville, Eritrea",GD,62284
+376,12,140,82,43,325,39.2,0.528,58,1,Ila,Stracke,Ila Stracke,"96076 Mosciski Summit, Port Betsy, Cayman Islands",KZ,74630
+379,4,156,75,0,0,48.3,0.238,32,1,Jennie,Oberbrunner,Jennie Oberbrunner,"16910 Trantow Village, East Nikita, Central African Republic",NF,04383
+387,5,116,74,29,0,32.3,0.66,35,1,Taylor,Hudson,Taylor Hudson,"47077 Terrance Lodge, New Jodie, Burkina Faso",AR,90708-7871
+388,8,105,100,36,0,43.3,0.239,45,1,Bradly,Herman,Bradly Herman,"075 O'Conner Hollow, Peteville, Croatia",LC,96535
+389,5,144,82,26,285,32,0.452,58,1,Burley,Ward,Burley Ward,"854 Ramona Path, West Oceane, Grenada",BQ,10105
+392,5,166,76,0,0,45.7,0.34,27,1,Ova,Mueller,Ova Mueller,"680 Schultz Fall, West Lenore, Wallis and Futuna",IN,12871-1043
+395,4,158,78,0,0,32.9,0.803,31,1,Hudson,Swift,Hudson Swift,"29337 Marks Junctions, Roweshire, Honduras",DZ,49013-6698
+398,0,131,66,40,0,34.3,0.196,22,1,Doug,Hane,Doug Hane,"2983 Watsica Manors, Kuphalshire, Canada",MY,17248-3946
+400,3,193,70,31,0,34.9,0.241,25,1,Jazmin,Hodkiewicz,Jazmin Hodkiewicz,"7196 Moore Tunnel, Melodyfort, Japan",KR,59799
+401,4,95,64,0,0,32,0.161,31,1,Rosie,Leffler,Rosie Leffler,"4942 Rowe Island, Kirlinland, Zimbabwe",IQ,70782
+403,5,136,84,41,88,35,0.286,35,1,Alexane,Torphy,Alexane Torphy,"706 Yost Spurs, Keiramouth, Saint Kitts and Nevis",RW,71369
+405,5,168,64,0,0,32.9,0.135,41,1,Chaz,Lebsack,Chaz Lebsack,"4171 Jennyfer Plaza, New Jeradhaven, Chile",TJ,36135-3852
+407,4,115,72,0,0,28.9,0.376,46,1,Mae,Wyman,Mae Wyman,"836 Cleveland Forks, Isidroport, Cape Verde",GA,95592-9981
+409,8,197,74,0,0,25.9,1.191,39,1,Abbey,Barton,Abbey Barton,"729 Howell Locks, East Otho, Samoa",SY,64425
+410,1,172,68,49,579,42.4,0.702,28,1,Shane,Kuhlman,Shane Kuhlman,"6970 Schowalter Isle, Lake Gertrudeville, Democratic People's Republic of Korea",AX,31621
+415,0,138,60,35,167,34.6,0.534,21,1,Raegan,O'Conner,Raegan O'Conner,"446 Little Plains, Bobbymouth, Turkmenistan",EG,50022
+416,3,173,84,33,474,35.7,0.258,22,1,Jacinto,Blick,Jacinto Blick,"0108 Treutel Pass, Elijahton, Thailand",LR,71335
+418,4,144,82,32,0,38.5,0.554,37,1,Jean,Crooks,Jean Crooks,"7169 Schmeler Crest, Hermanmouth, Bulgaria",GR,60326-7428
+420,3,129,64,29,115,26.4,0.219,28,1,Garrett,Rowe,Garrett Rowe,"8581 Tromp Union, West Osbaldoside, Jersey",TT,63733
+425,8,151,78,32,210,42.9,0.516,36,1,Micah,Rice,Micah Rice,"37364 Grant Trafficway, East Nelda, New Zealand",BF,49228
+426,4,184,78,39,277,37,0.264,31,1,Elias,Gibson,Elias Gibson,"910 Lubowitz Streets, Lake Lori, Lebanon",ML,57437-6352
+428,1,181,64,30,180,34.1,0.328,38,1,Carmelo,Mertz,Carmelo Mertz,"48105 Estevan Corner, East Reyes, Ukraine",JO,30411-5082
+430,1,95,82,25,180,35,0.233,43,1,River,Torphy,River Torphy,"5926 Stroman Plains, Rempelburgh, Georgia",SH,54156
+436,0,141,0,0,0,42.4,0.205,29,1,Hanna,Gibson,Hanna Gibson,"401 Schroeder Canyon, North Devon, Montserrat",NF,16868-6866
+441,0,189,104,25,0,34.3,0.435,41,1,Monserrat,Brakus,Monserrat Brakus,"714 Parisian Row, Macejkovicside, Gambia",SI,52456-0717
+444,8,108,70,0,0,30.5,0.955,33,1,Fredrick,Romaguera,Fredrick Romaguera,"438 Roob Light, Morganstad, Barbados",LB,30179-2301
+445,4,117,62,12,0,29.7,0.38,30,1,Francis,Kessler,Francis Kessler,"10694 Ratke Isle, Kemmerchester, Latvia",BW,40791-9929
+446,0,180,78,63,14,59.4,2.42,25,1,Leanne,Jerde,Leanne Jerde,"43023 Elisha Squares, West Keelymouth, Kiribati",ML,56328
+449,0,104,64,37,64,33.6,0.51,22,1,Matt,Stokes,Matt Stokes,"2677 Elian Locks, Fritschport, Macedonia",BM,04481-3723
+452,2,134,70,0,0,28.9,0.542,23,1,Marianne,Heller,Marianne Heller,"945 Connie Drive, South Tyree, Andorra",MN,63582
+456,14,175,62,30,0,33.6,0.212,38,1,Walter,Beier,Walter Beier,"9541 Ziemann Squares, North Lilianaland, Luxembourg",WF,55209
+459,10,148,84,48,237,37.6,1.001,51,1,Mozell,Lemke,Mozell Lemke,"0240 Rosenbaum Manors, Effiestad, Bouvet Island (Bouvetoya)",PL,39902
+469,8,120,0,0,0,30,0.183,38,1,Eloise,Sporer,Eloise Sporer,"9209 Ratke Turnpike, West Aniyaport, Namibia",VE,04970
+477,2,105,80,45,191,33.7,0.711,29,1,Tatum,Schumm,Tatum Schumm,"219 Hilll Fields, Damionberg, Western Sahara",GW,71210
+481,3,158,70,30,328,35.5,0.344,35,1,Peter,DuBuque,Peter DuBuque,"78625 Lauryn Lake, Kuhicfurt, New Caledonia",TC,69771
+485,0,145,0,0,0,44.2,0.63,31,1,Ruth,Spencer,Ruth Spencer,"3659 Bauch Gardens, New Murphyfort, Malawi",RW,52326-4475
+486,0,135,68,42,250,42.3,0.365,24,1,Sylvia,Will,Sylvia Will,"32998 Aliya Bypass, Laceyburgh, Mexico",AO,30806-8124
+494,4,125,70,18,122,28.9,1.144,45,1,Sam,Miller,Sam Miller,"330 Sebastian Manors, New Arianna, Micronesia",HR,68987-0666
+499,7,195,70,33,145,25.1,0.163,55,1,Brendan,O'Kon,Brendan O'Kon,"051 Raheem Bridge, Alton, Sudan",VE,29561
+503,6,0,68,41,0,39,0.727,41,1,Effie,Kreiger,Effie Kreiger,"3789 Alexys Falls, Cordeliashire, Cuba",SN,02365-4655
+507,0,180,90,26,90,36.5,0.314,35,1,Vicenta,Bailey,Vicenta Bailey,"5811 Cathryn View, East Ona, Slovakia (Slovak Republic)",PF,38488-7478
+511,12,84,72,31,0,29.7,0.297,46,1,Dorris,Hermiston,Dorris Hermiston,"501 Ryann Tunnel, Grahammouth, Saint Barthelemy",MZ,10617-4596
+516,3,163,70,18,105,31.6,0.268,28,1,Ari,Schultz,Ari Schultz,"7285 Edyth Drive, North Bennyburgh, Lithuania",RW,68550-8166
+517,9,145,88,34,165,30.3,0.771,53,1,Nelle,Metz,Nelle Metz,"907 Metz Common, Williamsonhaven, Nicaragua",LC,80609-3697
+524,9,130,70,0,0,34.2,0.652,45,1,Skye,Armstrong,Skye Armstrong,"4541 Hackett Lock, North Nathanaelview, Venezuela",BN,78772
+536,4,132,0,0,0,32.9,0.302,23,1,Adolph,Bergnaum,Adolph Bergnaum,"391 McGlynn Skyway, Port Kristinside, Liberia",GE,45223
+540,3,129,92,49,155,36.4,0.968,32,1,Gerda,Ruecker,Gerda Ruecker,"80017 Reinhold Courts, South Jenniemouth, Turkmenistan",SV,01008-8069
+541,8,100,74,40,215,39.4,0.661,43,1,Edd,Kreiger,Edd Kreiger,"4424 Margarette Ranch, Gleichnerland, Algeria",AE,87089-5641
+542,3,128,72,25,190,32.4,0.549,27,1,Caroline,Hessel,Caroline Hessel,"1568 Aron Falls, Nasirport, Saint Kitts and Nevis",AG,63870
+543,10,90,85,32,0,34.9,0.825,56,1,Agustin,Bayer,Agustin Bayer,"39598 Katelyn Courts, Emmanuellemouth, United Kingdom",TO,70531
+546,8,186,90,35,225,34.5,0.423,37,1,Anika,Bernier,Anika Bernier,"35413 Schroeder Tunnel, Jazmyneborough, Serbia",NI,26279
+547,5,187,76,27,207,43.6,1.034,53,1,Webster,Kemmer,Webster Kemmer,"64689 Ankunding Drive, Auerberg, French Southern Territories",MF,24439
+561,6,125,76,0,0,33.8,0.121,54,1,Baylee,Klocko,Baylee Klocko,"7831 Alexie Island, Port Kellen, Niue",CF,47678
+562,0,198,66,32,274,41.3,0.502,28,1,Julien,Jast,Julien Jast,"0345 Nikolaus Parkway, East Mayra, Cocos (Keeling) Islands",IS,61896
+570,0,121,66,30,165,34.3,0.203,33,1,Paul,Raynor,Paul Raynor,"067 Von Valleys, West Tina, British Indian Ocean Territory (Chagos Archipelago)",SI,27189-6744
+578,2,118,80,0,0,42.9,0.693,21,1,Uriah,Wolf,Uriah Wolf,"88600 Josefa Stravenue, Lake Madelynville, Gibraltar",SJ,18706-4347
+580,2,197,70,99,0,34.7,0.575,62,1,Catherine,O'Keefe,Catherine O'Keefe,"90652 Harber Vista, South Alisa, Liechtenstein",PY,29566-8825
+2,1,85,66,29,0,26.6,0.351,31,0,Chadrick,Veum,Chadrick Veum,"625 Carroll Common, North Marjolainemouth, Portugal",BH,25737-5880
+4,1,89,66,23,94,28.1,0.167,21,0,Hadley,Ernser,Hadley Ernser,"77088 Bernhard River, Carterborough, Sierra Leone",SJ,64527-5063
+6,5,116,74,0,0,25.6,0.201,30,0,Jasmin,Denesik,Jasmin Denesik,"7812 Zachery Points, Port Hermann, Turks and Caicos Islands",WS,27343-5952
+8,10,115,0,0,0,35.3,0.134,29,0,Hattie,Larkin,Hattie Larkin,"8253 Wyman Parkways, Joshuahaven, Cote d'Ivoire",IL,65770
+11,4,110,92,0,0,37.6,0.191,30,0,Makayla,Franecki,Makayla Franecki,"06581 Earline Street, Bobbymouth, Japan",CG,71136
+13,10,139,80,0,0,27.1,1.441,57,0,Afton,Reilly,Afton Reilly,"38438 Taryn Valleys, Halvorsonfurt, Saint Lucia",FM,19883-2080
+19,1,103,30,38,83,43.3,0.183,33,0,Jermain,Hansen,Jermain Hansen,"0521 Hamill Plains, Cummeratafurt, Cambodia",VN,12514-4410
+21,3,126,88,41,235,39.3,0.704,27,0,Gabrielle,Sawayn,Gabrielle Sawayn,"84088 Blanda Drive, Kadeborough, Cyprus",BF,12926
+22,8,99,84,0,0,35.4,0.388,50,0,Susan,Ritchie,Susan Ritchie,"864 Teresa Wells, Westfort, United States Minor Outlying Islands",EE,06221-1767
+28,1,97,66,15,140,23.2,0.487,22,0,Dorcas,Turner,Dorcas Turner,"00255 Vincenza Centers, Port Vaughn, Italy",CR,47542
+29,13,145,82,19,110,22.2,0.245,57,0,Richmond,Stoltenberg,Richmond Stoltenberg,"7940 Barton Passage, North Kraigfort, Guinea",KH,87760-7738
+30,5,117,92,0,0,34.1,0.337,38,0,Taryn,VonRueden,Taryn VonRueden,"511 Patsy Plaza, West Alycia, Liberia",KM,11898-3890
+31,5,109,75,26,0,36,0.546,60,0,Misael,Reynolds,Misael Reynolds,"32686 Heaney Trail, Treberg, Honduras",ZM,21382-2086
+33,3,88,58,11,54,24.8,0.267,22,0,Sage,Jakubowski,Sage Jakubowski,"4004 Francisco Spur, Lake Jayson, Antigua and Barbuda",ST,60526-5876
+34,6,92,92,0,0,19.9,0.188,28,0,Sarina,Reinger,Sarina Reinger,"7092 Brian Village, Lake Destanyfort, Lithuania",CH,53463
+35,10,122,78,31,0,27.6,0.512,45,0,Willow,Keeling,Willow Keeling,"81744 Gerda Ford, South Korychester, Fiji",GW,40568
+36,4,103,60,33,192,24,0.966,33,0,Nicholas,Ortiz,Nicholas Ortiz,"1249 Drew Junctions, Lake Berthamouth, Greenland",SD,13377
+37,11,138,76,0,0,33.2,0.42,35,0,Yadira,McLaughlin,Yadira McLaughlin,"23772 Kertzmann Dale, Magnoliamouth, Netherlands",SV,32665
+41,3,180,64,25,70,34,0.271,26,0,Virginia,D'Amore,Virginia D'Amore,"349 Armstrong Manor, Rippinhaven, Mozambique",YE,60252
+42,7,133,84,0,0,40.2,0.696,37,0,Zachery,Spinka,Zachery Spinka,"905 Jack Gardens, West Andyfurt, Brazil",CC,41942-2899
+43,7,106,92,18,0,22.7,0.235,48,0,Albert,Stiedemann,Albert Stiedemann,"2939 Green Centers, New Keiraville, Hungary",KI,73898
+45,7,159,64,0,0,27.4,0.294,40,0,Diamond,Wintheiser,Diamond Wintheiser,"50714 Terry Rue, Port Gracie, Heard Island and McDonald Islands",RU,86716
+47,1,146,56,0,0,29.7,0.564,29,0,Perry,Murazik,Perry Murazik,"51097 Schuppe Coves, Josefinaborough, Israel",GS,79251
+48,2,71,70,27,0,28,0.586,22,0,Orlo,Kirlin,Orlo Kirlin,"20028 Bahringer Wall, Port Rosendo, United States Minor Outlying Islands",PW,19342-7848
+50,7,105,0,0,0,0,0.305,24,0,Jamey,Kessler,Jamey Kessler,"95771 Dallas Mews, Bobbiemouth, Uganda",NE,69552
+51,1,103,80,11,82,19.4,0.491,22,0,Alden,Botsford,Alden Botsford,"3251 Herman Ford, Rolandotown, Taiwan",TG,90220-7685
+52,1,101,50,15,36,24.2,0.526,26,0,Jerrod,Marks,Jerrod Marks,"10126 Glen Villages, Kielborough, Guyana",LC,46987-5005
+53,5,88,66,21,23,24.4,0.342,30,0,Dayna,Beer,Dayna Beer,"8690 Maximillian Expressway, Lake Keelychester, Argentina",RO,91498-4012
+55,7,150,66,42,342,34.7,0.718,42,0,Linnie,Mohr,Linnie Mohr,"709 Herman Tunnel, Rahsaanside, Mali",PL,34560-2809
+56,1,73,50,10,0,23,0.248,21,0,Benny,Stanton,Benny Stanton,"24528 Juana Greens, Port Marafort, Suriname",MR,07067
+58,0,100,88,60,110,46.8,0.962,31,0,Dedrick,Kub,Dedrick Kub,"7789 Fadel Islands, Reesebury, Togo",KE,55948
+59,0,146,82,0,0,40.5,1.781,44,0,Cordelia,Lebsack,Cordelia Lebsack,"910 Mable Square, West Antoniachester, Lesotho",PY,21402-9004
+60,0,105,64,41,142,41.5,0.173,22,0,Michale,Metz,Michale Metz,"42566 Orn Forest, Lake Vincenzamouth, Paraguay",TV,43196
+61,2,84,0,0,0,0,0.304,21,0,Milo,Hahn,Milo Hahn,"787 Von Parkway, Donnellybury, United Arab Emirates",ML,16490-1145
+63,5,44,62,0,0,25,0.587,36,0,Elroy,Miller,Elroy Miller,"695 Carroll Mountains, Port Diegochester, Guernsey",UY,82773-7383
+64,2,141,58,34,128,25.4,0.699,24,0,Marquise,Rippin,Marquise Rippin,"4435 Christiansen Greens, East Lucasbury, Mayotte",KH,36890
+66,5,99,74,27,0,29,0.203,32,0,Alvina,Cassin,Alvina Cassin,"878 Ruecker Union, South Queenfurt, Fiji",VG,58304
+68,2,109,92,0,0,42.7,0.845,54,0,Savanna,Lockman,Savanna Lockman,"9147 Tomas Inlet, Treyport, Dominica",CW,64481-0259
+69,1,95,66,13,38,19.6,0.334,25,0,Christelle,Klein,Christelle Klein,"62723 Lillian Bypass, Wilfredoport, Saint Vincent and the Grenadines",PH,61777-8918
+70,4,146,85,27,100,28.9,0.189,27,0,Keven,Mayert,Keven Mayert,"7861 Peggie Garden, North Liliane, French Guiana",EE,92159
+72,5,139,64,35,140,28.6,0.411,26,0,Anabelle,Kling,Anabelle Kling,"7409 Dagmar Knolls, Konopelskiton, Mali",FI,52251-5355
+74,4,129,86,20,270,35.1,0.231,23,0,Hailey,Ledner,Hailey Ledner,"552 Abernathy Glen, Port Favianton, Grenada",CF,05312
+75,1,79,75,30,0,32,0.396,22,0,Melyna,Dare,Melyna Dare,"989 Grant Junctions, Port Ralphhaven, Kyrgyz Republic",LV,95852
+76,1,0,48,20,0,24.7,0.14,22,0,Arielle,Zieme,Arielle Zieme,"57231 Keebler Avenue, Blockhaven, Turks and Caicos Islands",CH,16328-4246
+77,7,62,78,0,0,32.6,0.391,41,0,Lelah,Padberg,Lelah Padberg,"006 Maryam Landing, Gonzaloshire, Tonga",GI,85603
+78,5,95,72,33,0,37.7,0.37,27,0,Madeline,Kling,Madeline Kling,"8179 Walsh Turnpike, Lake Gregorio, Switzerland",CD,04398
+80,2,112,66,22,0,25,0.307,24,0,Emanuel,Marks,Emanuel Marks,"08632 Beier Wall, Fadelhaven, Ethiopia",MP,52986-9244
+81,3,113,44,13,0,22.4,0.14,22,0,Annabell,Jacobi,Annabell Jacobi,"11942 Johnson Stravenue, Treutelton, Svalbard & Jan Mayen Islands",GY,44621
+82,2,74,0,0,0,0,0.102,22,0,Joanne,Reichert,Joanne Reichert,"602 Kihn Ville, Tarafurt, Japan",KG,81073-1563
+83,7,83,78,26,71,29.3,0.767,36,0,Rosina,Aufderhar,Rosina Aufderhar,"729 Beatty Stream, Lake Madison, Tokelau",PE,24929
+84,0,101,65,28,0,24.6,0.237,22,0,Gunner,Jenkins,Gunner Jenkins,"5731 Halvorson Overpass, South Antonettaview, Portugal",PS,17144
+86,2,110,74,29,125,32.4,0.698,27,0,Alison,Towne,Alison Towne,"75434 Jennyfer Circle, Ernestinamouth, Chad",PS,24526
+87,13,106,72,54,0,36.6,0.178,45,0,Dalton,Shanahan,Dalton Shanahan,"4809 Crist Stravenue, Klingbury, Barbados",CH,76570
+88,2,100,68,25,71,38.5,0.324,26,0,Litzy,Schultz,Litzy Schultz,"99972 Humberto Meadow, Jerdeland, Zambia",LK,79446-4176
+90,1,107,68,19,0,26.5,0.165,24,0,Benjamin,Christiansen,Benjamin Christiansen,"141 Turcotte Creek, North Geo, Afghanistan",UZ,00236
+91,1,80,55,0,0,19.1,0.258,21,0,Ana,Borer,Ana Borer,"11903 Schaden Place, Hoegermouth, Chile",US,38268
+92,4,123,80,15,176,32,0.443,34,0,Brenden,Leannon,Brenden Leannon,"394 Hettinger Rapids, Beattytown, Marshall Islands",UY,15031-3756
+93,7,81,78,40,48,46.7,0.261,42,0,Carole,Turner,Carole Turner,"320 Ledner Locks, Janniefort, Bahrain",SO,51873
+95,2,142,82,18,64,24.7,0.761,21,0,Naomie,Mueller,Naomie Mueller,"37777 Eveline Fall, West Jaida, Namibia",HK,85684
+96,6,144,72,27,228,33.9,0.255,40,0,Heloise,Hermann,Heloise Hermann,"2882 Stan Plains, East Armani, Pitcairn Islands",MV,20527
+97,2,92,62,28,0,31.6,0.13,24,0,Maximus,Langworth,Maximus Langworth,"0269 Dibbert Circles, South Tiffanyshire, Togo",AG,05890
+98,1,71,48,18,76,20.4,0.323,22,0,Vida,Davis,Vida Davis,"532 Meghan Glens, Madelynmouth, Saint Pierre and Miquelon",SN,41856
+99,6,93,50,30,64,28.7,0.356,23,0,Jolie,Collins,Jolie Collins,"646 Greenfelder Ford, Riceport, Reunion",CL,56291
+102,1,151,60,0,0,26.1,0.179,22,0,Kim,Weissnat,Kim Weissnat,"36404 Braeden Extension, South Alta, Andorra",TN,40995-8920
+103,0,125,96,0,0,22.5,0.262,21,0,Loy,Ryan,Loy Ryan,"9165 McKenzie Mission, East Alisha, French Southern Territories",RS,83021
+104,1,81,72,18,40,26.6,0.283,24,0,Duane,Mraz,Duane Mraz,"413 Dickens Prairie, Boganmouth, Micronesia",PW,48858-4322
+105,2,85,65,0,0,39.6,0.93,27,0,Aiden,Moore,Aiden Moore,"74426 Miller Falls, Marjoryborough, Faroe Islands",RS,15047-0234
+106,1,126,56,29,152,28.7,0.801,21,0,Chester,Runolfsdottir,Chester Runolfsdottir,"855 Kianna Plaza, East Nicholauschester, Germany",AX,43715
+107,1,96,122,0,0,22.4,0.207,27,0,Darron,Bogan,Darron Bogan,"81950 D'Amore Mountains, Port Conniefurt, Azerbaijan",BB,77753
+108,4,144,58,28,140,29.5,0.287,37,0,Gretchen,Trantow,Gretchen Trantow,"6365 Marks Wells, Port Abbigailhaven, Kenya",GQ,32566-3843
+109,3,83,58,31,18,34.3,0.336,25,0,Darby,Quitzon,Darby Quitzon,"884 Jerome Orchard, East Kennethshire, Uzbekistan",PW,49601
+113,1,89,76,34,37,31.2,0.192,23,0,Lazaro,Kilback,Lazaro Kilback,"2452 Pearlie Shoals, Lake Sventown, Sao Tome and Principe",AZ,41002-4826
+114,4,76,62,0,0,34,0.391,25,0,Tanya,Friesen,Tanya Friesen,"187 Hansen Burg, North Nicoton, Moldova",YE,03107-6422
+118,5,78,48,0,0,33.7,0.654,25,0,Shyann,Cole,Shyann Cole,"18957 Miller Crest, Port Mylene, Seychelles",BQ,05604
+119,4,97,60,23,0,28.2,0.443,22,0,Anastacio,Prosacco,Anastacio Prosacco,"6455 Kaylie Expressway, Port Katelynn, Paraguay",CN,95264
+120,4,99,76,15,51,23.2,0.223,21,0,Reuben,McDermott,Reuben McDermott,"4667 Lenora Point, Jimmyport, Burundi",CK,66311
+122,6,111,64,39,0,34.2,0.26,24,0,Torrey,Johnston,Torrey Johnston,"60886 Ransom Mountains, Stiedemannside, Monaco",GA,90886-2010
+123,2,107,74,30,100,33.6,0.404,23,0,Edgardo,Toy,Edgardo Toy,"6160 Dorothy Rapids, Lake Sammyton, Madagascar",VE,86225-3030
+124,5,132,80,0,0,26.8,0.186,69,0,Demetris,Batz,Demetris Batz,"2712 Danial Spring, Gavinville, Costa Rica",SG,23118-3641
+127,3,120,70,30,135,42.9,0.452,30,0,Kiera,Ruecker,Kiera Ruecker,"1463 Legros Summit, Lake Vickieton, Namibia",GN,71440
+128,1,118,58,36,94,33.3,0.261,23,0,Jazlyn,Little,Jazlyn Little,"600 Tamia Light, New Abdielberg, Grenada",LR,71754-9441
+134,8,84,74,31,0,38.3,0.457,39,0,Kellie,Kozey,Kellie Kozey,"658 Misael Crossroad, Roystad, Faroe Islands",AD,29730-3089
+135,2,96,68,13,49,21.1,0.647,26,0,Emanuel,Grady,Emanuel Grady,"2139 Lillie Mountain, Berneicechester, Fiji",LB,74981
+136,2,125,60,20,140,33.8,0.088,31,0,Taylor,Roob,Taylor Roob,"01419 Prohaska Creek, South Jaquanville, Lithuania",CY,64902
+137,0,100,70,26,50,30.8,0.597,21,0,Boris,Ernser,Boris Ernser,"911 Oberbrunner Mills, Port Rita, Samoa",NA,10145-1680
+138,0,93,60,25,92,28.7,0.532,22,0,Bradly,Emard,Bradly Emard,"741 Martina Ways, Dickensborough, Gambia",MA,18905-3752
+139,0,129,80,0,0,31.2,0.703,29,0,Jeramie,Jenkins,Jeramie Jenkins,"6764 Anderson Parks, North Ryanview, Heard Island and McDonald Islands",CR,68677
+140,5,105,72,29,325,36.9,0.159,28,0,Leola,Leffler,Leola Leffler,"74767 Rutherford Manor, East Casimer, Qatar",BM,55717
+141,3,128,78,0,0,21.1,0.268,55,0,Braulio,Bailey,Braulio Bailey,"756 Torrey Cliffs, Carolannetown, French Guiana",SC,82895-4011
+142,5,106,82,30,0,39.5,0.286,38,0,Alf,Purdy,Alf Purdy,"472 Darrell Center, East Ariland, South Georgia and the South Sandwich Islands",HT,00601
+143,2,108,52,26,63,32.5,0.318,22,0,Hilario,Hand,Hilario Hand,"2793 Ryder Drive, Enosberg, Malawi",AG,45620
+145,4,154,62,31,284,32.8,0.237,23,0,Kitty,Metz,Kitty Metz,"30508 Kayden Mount, East Ernestina, Latvia",VI,35529
+146,0,102,75,23,0,0,0.572,21,0,Kallie,Schinner,Kallie Schinner,"038 Metz Pine, Lake Nils, Solomon Islands",BL,66397-4493
+147,9,57,80,37,0,32.8,0.096,41,0,Marques,Wolff,Marques Wolff,"3623 Marian Mills, New Kaela, Saint Kitts and Nevis",IQ,79845-6837
+148,2,106,64,35,119,30.5,1.4,34,0,Sammie,Dach,Sammie Dach,"52606 Frederique Port, East Shannaview, Belize",LV,49164-2740
+149,5,147,78,0,0,33.7,0.218,65,0,Retta,Buckridge,Retta Buckridge,"3951 Lizzie Station, Lake Brannonberg, Bulgaria",GI,67004-1197
+150,2,90,70,17,0,27.3,0.085,22,0,Maye,Luettgen,Maye Luettgen,"713 Tremaine Path, New Helena, Iran",MA,53767-9414
+151,1,136,74,50,204,37.4,0.399,24,0,Arno,O'Kon,Arno O'Kon,"081 Daniel Mills, Baumbachfurt, Somalia",BB,30882
+152,4,114,65,0,0,21.9,0.432,37,0,Darren,Hettinger,Darren Hettinger,"2970 Rutherford Land, Isaiasburgh, Falkland Islands (Malvinas)",LU,51955-3749
+154,1,153,82,42,485,40.6,0.687,23,0,Kamille,Oberbrunner,Kamille Oberbrunner,"1825 Ondricka Freeway, Lake Gretchen, Belgium",SI,37215-7645
+157,2,99,52,15,94,24.6,0.637,21,0,Mario,Walsh,Mario Walsh,"9278 Matilda Circle, Stantonbury, Kyrgyz Republic",EC,99687
+158,1,109,56,21,135,25.2,0.833,23,0,Sandra,Reynolds,Sandra Reynolds,"988 Cassie Roads, Hintzshire, Grenada",KZ,28171
+159,2,88,74,19,53,29,0.229,22,0,Elta,Wolff,Elta Wolff,"1867 Regan Village, Tyrellton, Venezuela",TR,69229
+161,4,151,90,38,0,29.7,0.294,36,0,Zita,Murray,Zita Murray,"7051 Nichole Flats, Kayliemouth, Libyan Arab Jamahiriya",LU,37801-2702
+162,7,102,74,40,105,37.2,0.204,45,0,Justyn,Gulgowski,Justyn Gulgowski,"39698 Ibrahim View, Clementhaven, Aruba",NC,53524
+163,0,114,80,34,285,44.2,0.167,27,0,Kayla,Stracke,Kayla Stracke,"4838 Sarah Track, Port Leramouth, Czech Republic",NU,17868-6500
+164,2,100,64,23,0,29.7,0.368,21,0,Jazmyn,Wyman,Jazmyn Wyman,"5479 Hamill Turnpike, Josianneland, Congo",BH,89948
+167,3,148,66,25,0,32.5,0.256,22,0,Abigale,Streich,Abigale Streich,"9893 Johnnie Viaduct, Hoppeview, Norfolk Island",PS,90035
+168,4,120,68,0,0,29.6,0.709,34,0,Nathen,Beatty,Nathen Beatty,"8605 Lesch Lakes, Wilfridburgh, Turkey",JM,36480-2677
+169,4,110,66,0,0,31.9,0.471,29,0,Hosea,Rogahn,Hosea Rogahn,"51667 Jenkins Mall, Huelsmouth, Barbados",GE,37438
+170,3,111,90,12,78,28.4,0.495,29,0,Lexus,Bahringer,Lexus Bahringer,"8999 Osinski Rue, New Amarimouth, Bulgaria",CC,41271
+173,2,87,0,23,0,28.9,0.773,25,0,Kenny,Gislason,Kenny Gislason,"930 Waters Inlet, Cristtown, Estonia",AS,83868-8280
+174,1,79,60,42,48,43.5,0.678,23,0,Orie,Dach,Orie Dach,"8901 Dibbert Pines, Port Allanhaven, Nigeria",VN,07848-1667
+175,2,75,64,24,55,29.7,0.37,33,0,Esther,Bernhard,Esther Bernhard,"971 Zulauf Row, West Shea, Ghana",FR,19493
+177,6,85,78,0,0,31.2,0.382,42,0,Zelda,Baumbach,Zelda Baumbach,"23093 Buddy Crescent, East Parker, Northern Mariana Islands",IL,01114
+179,5,143,78,0,0,45,0.19,47,0,Lauriane,Gleichner,Lauriane Gleichner,"1174 Hilll Ranch, North George, Holy See (Vatican City State)",PF,66414-0405
+181,6,87,80,0,0,23.2,0.084,32,0,Jalon,Ryan,Jalon Ryan,"5201 Ernser Track, Kaceyside, Netherlands Antilles",TG,69972-0425
+182,0,119,64,18,92,34.9,0.725,23,0,Jennifer,Ortiz,Jennifer Ortiz,"09938 Madaline Inlet, Farrellview, Italy",BJ,51078
+183,1,0,74,20,23,27.7,0.299,21,0,Efren,Murphy,Efren Murphy,"7311 Nelda Estates, Collinburgh, Benin",RU,34075
+184,5,73,60,0,0,26.8,0.268,27,0,Vivien,Moore,Vivien Moore,"8057 Chloe Prairie, Abbottmouth, Svalbard & Jan Mayen Islands",BO,37196
+185,4,141,74,0,0,27.6,0.244,40,0,Rosalee,Kuphal,Rosalee Kuphal,"76617 Lavonne Course, Percivalfort, Oman",IN,05069
+191,3,111,62,0,0,22.6,0.142,21,0,Francisco,Gusikowski,Francisco Gusikowski,"255 Casey Court, Lake Danial, Comoros",CO,07380
+192,9,123,70,44,94,33.1,0.374,40,0,Monroe,Emard,Monroe Emard,"70452 Kasandra Valley, Stonefort, Kuwait",NZ,55352-3054
+195,8,85,55,20,0,24.4,0.136,42,0,Danny,Shanahan,Danny Shanahan,"606 Ritchie Track, Beerstad, Colombia",ML,07562
+197,1,105,58,0,0,24.3,0.187,21,0,Florine,Prosacco,Florine Prosacco,"19507 Hoeger Rapid, New Sofiaton, Reunion",TC,62788
+201,0,113,80,16,0,31,0.874,21,0,Marques,Williamson,Marques Williamson,"491 Declan Path, Cartwrightfurt, Saint Barthelemy",UY,14108
+202,1,138,82,0,0,40.1,0.236,28,0,Fatima,Lowe,Fatima Lowe,"000 Elmira Tunnel, Ryleighmouth, Ghana",SN,81695
+203,0,108,68,20,0,27.3,0.787,32,0,Precious,Thiel,Precious Thiel,"148 Wilma Valley, Opheliashire, Greenland",IE,16963-9122
+204,2,99,70,16,44,20.4,0.235,27,0,Audrey,Johnson,Audrey Johnson,"02566 Euna Lock, Bahringerborough, Vietnam",WS,20059-4274
+205,6,103,72,32,190,37.7,0.324,55,0,Noelia,Gottlieb,Noelia Gottlieb,"357 Macejkovic Mission, Dachview, Cayman Islands",NZ,77126-6743
+206,5,111,72,28,0,23.9,0.407,27,0,Victor,Gerlach,Victor Gerlach,"5868 Melyna Circle, New Veronaland, India",PG,11378-3816
+209,1,96,64,27,87,33.2,0.289,21,0,Augusta,Labadie,Augusta Labadie,"73371 Ryan Mill, Lake Kirkstad, Kuwait",TH,17089-8520
+211,2,81,60,22,0,27.7,0.29,25,0,Danika,Johnson,Danika Johnson,"095 Aliya Walks, West Camren, Costa Rica",SN,96047
+212,0,147,85,54,0,42.8,0.375,24,0,Bernita,Hilll,Bernita Hilll,"69295 Sibyl Circles, South Sharon, Marshall Islands",AX,07469-6395
+213,7,179,95,31,0,34.2,0.164,60,0,Colby,Rolfson,Colby Rolfson,"10251 Ralph Gateway, Port Hadleyshire, El Salvador",ER,76958-7062
+218,6,125,68,30,120,30,0.464,32,0,Jackie,Keeling,Jackie Keeling,"900 Emery Trafficway, Monserratville, Indonesia",SS,57880
+223,7,119,0,0,0,25.2,0.209,37,0,Marco,Parisian,Marco Parisian,"2154 Sherman Fort, North Magnoliastad, Greenland",NR,80492
+224,7,142,60,33,190,28.8,0.687,61,0,Nathanial,Beatty,Nathanial Beatty,"91727 Cyrus Hollow, Marksburgh, Sao Tome and Principe",IQ,68505-1729
+225,1,100,66,15,56,23.6,0.666,26,0,Roselyn,Mosciski,Roselyn Mosciski,"647 Pouros Mall, Carlotown, Saint Vincent and the Grenadines",LU,38887
+226,1,87,78,27,32,34.6,0.101,22,0,Franz,Harber,Franz Harber,"6435 Block Rest, Gaylordport, Guyana",BB,50298-0846
+227,0,101,76,0,0,35.7,0.198,26,0,Brenna,Wunsch,Brenna Wunsch,"14264 Sarah Hills, Morarmouth, Ukraine",AM,02721
+229,4,197,70,39,744,36.7,2.329,31,0,Deanna,Huels,Deanna Huels,"359 Schmidt Orchard, Port Mekhiside, Ecuador",AG,50004-5744
+230,0,117,80,31,53,45.2,0.089,24,0,Alfonzo,Schamberger,Alfonzo Schamberger,"858 Tia Throughway, North Neldabury, Ukraine",ZA,47600
+233,1,79,80,25,37,25.4,0.583,22,0,Orville,Hilll,Orville Hilll,"884 Gerlach Club, North Norval, Saint Martin",NG,71083-4858
+234,4,122,68,0,0,35,0.394,29,0,Makayla,Blick,Makayla Blick,"4002 Alyson Station, South Damon, Morocco",PR,97766-1326
+235,3,74,68,28,45,29.7,0.293,23,0,Keely,McCullough,Keely McCullough,"9019 Jimmie Street, Lake George, Liberia",NR,73529-4164
+240,0,104,76,0,0,18.4,0.582,27,0,Brown,Schmeler,Brown Schmeler,"44223 Rosenbaum Court, Orieport, Monaco",CL,72232
+241,1,91,64,24,0,29.2,0.192,21,0,Werner,Swaniawski,Werner Swaniawski,"009 Hoppe Plains, Hesseltown, Saint Helena",AE,23382
+242,4,91,70,32,88,33.1,0.446,22,0,Ike,Jacobs,Ike Jacobs,"0442 Melany Skyway, Larsonville, Cape Verde",KN,30812-3744
+245,2,146,76,35,194,38.2,0.329,29,0,Roderick,Dare,Roderick Dare,"0543 Tromp Lock, New Marian, Swaziland",AR,47555-8749
+247,10,122,68,0,0,31.2,0.258,41,0,Efren,Auer,Efren Auer,"58599 Giovani Estates, Elliotborough, Lithuania",NC,14630-0699
+248,0,165,90,33,680,52.3,0.427,23,0,Ruby,Weissnat,Ruby Weissnat,"64834 Annabel Street, D'Amoreville, Singapore",ES,68420
+249,9,124,70,33,402,35.4,0.282,34,0,Thomas,Cronin,Thomas Cronin,"060 Timothy Wells, West Leilani, Morocco",EE,88696-3222
+250,1,111,86,19,0,30.1,0.143,23,0,Jodie,Lynch,Jodie Lynch,"693 Brekke Parks, New Ariannaport, Palestinian Territory",IR,63585-2058
+251,9,106,52,0,0,31.2,0.38,42,0,Winfield,Rempel,Winfield Rempel,"7832 Weimann Keys, New Websterfort, Panama",NP,08730
+252,2,129,84,0,0,28,0.284,27,0,Jeffry,Spencer,Jeffry Spencer,"374 Keeling Village, North Romanborough, Mayotte",RS,33731
+253,2,90,80,14,55,24.4,0.249,24,0,Misty,Auer,Misty Auer,"960 Sienna Village, Michalefort, Macedonia",UY,62805
+254,0,86,68,32,0,35.8,0.238,25,0,Mable,Lind,Mable Lind,"854 Benny Mews, Maybellburgh, Bouvet Island (Bouvetoya)",MX,02048
+257,3,111,56,39,0,30.1,0.557,30,0,Nico,Breitenberg,Nico Breitenberg,"16082 Baumbach Stravenue, Antoninaport, Mauritania",PF,74016-0044
+258,2,114,68,22,0,28.7,0.092,25,0,Eloise,Parisian,Eloise Parisian,"84387 Mosciski Ridges, New Monteside, Grenada",SA,60183
+259,1,193,50,16,375,25.9,0.655,24,0,Imogene,Glover,Imogene Glover,"106 Kuphal Junctions, Irmashire, Bahrain",AL,91018-0773
+261,3,191,68,15,130,30.9,0.299,34,0,Cleo,Gleichner,Cleo Gleichner,"8355 Hessel Dam, Vivaburgh, Ukraine",AF,74129-2776
+263,4,95,70,32,0,32.1,0.612,24,0,Santiago,Bradtke,Santiago Bradtke,"3420 Katlyn Drive, Christburgh, Guatemala",MX,44009-1103
+264,3,142,80,15,0,32.4,0.2,63,0,Eladio,Morissette,Eladio Morissette,"24018 Littel Trace, Port Jerodstad, South Georgia and the South Sandwich Islands",PF,25186-3727
+266,5,96,74,18,67,33.6,0.997,43,0,Lilly,Williamson,Lilly Williamson,"5322 Allan Forks, Luisside, Saudi Arabia",FR,73454-0428
+268,2,128,64,42,0,40,1.101,24,0,Reanna,Connelly,Reanna Connelly,"1650 Emard Garden, Jefferyland, Romania",UY,64355
+269,0,102,52,0,0,25.1,0.078,21,0,Frederic,Lakin,Frederic Lakin,"185 Otis Flat, South Dan, Bouvet Island (Bouvetoya)",PY,30253-2292
+272,2,108,62,32,56,25.2,0.128,21,0,Chanelle,Romaguera,Chanelle Romaguera,"22732 Van Tunnel, Lake Jeffryside, Israel",NF,29961
+273,3,122,78,0,0,23,0.254,40,0,Esta,Emard,Esta Emard,"22420 Dewayne Courts, Adelbertbury, Nepal",IL,93462
+274,1,71,78,50,45,33.2,0.422,21,0,Donald,Schimmel,Donald Schimmel,"221 Renner Radial, Lake Deon, Luxembourg",SN,96006
+275,13,106,70,0,0,34.2,0.251,52,0,Jana,Koelpin,Jana Koelpin,"6927 Selena Throughway, Vinceville, Faroe Islands",KP,55510
+276,2,100,70,52,57,40.5,0.677,25,0,Shyanne,Gorczany,Shyanne Gorczany,"06465 Laisha Divide, Hartmannborough, Kuwait",GR,86386-1235
+278,0,104,64,23,116,27.8,0.454,23,0,Mandy,Mills,Mandy Mills,"5920 Joe Loaf, Goldnerview, Tonga",MN,03391
+279,5,114,74,0,0,24.9,0.744,57,0,Solon,Crooks,Solon Crooks,"698 Pollich Brook, Bayerport, Isle of Man",LU,10373-2205
+280,2,108,62,10,278,25.3,0.881,22,0,Corene,Kertzmann,Corene Kertzmann,"65797 Stacey Way, Ziememouth, Martinique",GI,20294
+282,10,129,76,28,122,35.9,0.28,39,0,America,Hudson,America Hudson,"68623 Chesley Spur, Lake Florida, South Africa",VU,49751-3062
+283,7,133,88,15,155,32.4,0.262,37,0,Alene,Watsica,Alene Watsica,"29259 Delta Vista, Lake Alberto, Benin",CH,64894-2279
+286,7,136,74,26,135,26,0.647,51,0,Nikki,Kuphal,Nikki Kuphal,"7785 Godfrey Walk, Beattyburgh, Lithuania",JP,47026-4983
+287,5,155,84,44,545,38.7,0.619,34,0,Bessie,Huels,Bessie Huels,"2276 Smith Mountain, Elishastad, Jordan",ZM,26662
+289,4,96,56,17,49,20.8,0.34,26,0,Elliott,Larson,Elliott Larson,"002 Norwood Shores, Sophieburgh, Moldova",PE,06370
+290,5,108,72,43,75,36.1,0.263,33,0,Orville,Sawayn,Orville Sawayn,"42317 Keon Ford, Borermouth, Montserrat",VN,75164
+291,0,78,88,29,40,36.9,0.434,21,0,Zachariah,Jakubowski,Zachariah Jakubowski,"938 Abe Ford, South Mozelltown, Rwanda",DJ,56885
+295,0,161,50,0,0,21.9,0.254,65,0,Chadrick,Hills,Chadrick Hills,"62903 Beier Grove, Predovicside, Paraguay",UZ,94888
+296,6,151,62,31,120,35.5,0.692,28,0,Kenna,Schmitt,Kenna Schmitt,"48542 Kendra Wall, Hoppeland, Gibraltar",CH,65143-1035
+298,0,126,84,29,215,30.7,0.52,24,0,Kristofer,Feeney,Kristofer Feeney,"9308 Hagenes Parkway, North Elisaview, Czech Republic",SD,49380
+300,8,112,72,0,0,23.6,0.84,58,0,Price,Schimmel,Price Schimmel,"41803 Champlin Lakes, North Berniece, Norway",UA,47234
+303,5,77,82,41,42,35.8,0.156,35,0,Maggie,Gorczany,Maggie Gorczany,"31710 Paucek Parkways, Lelahtown, Ukraine",SH,66299-1267
+305,3,150,76,0,0,21,0.207,37,0,Karl,Moore,Karl Moore,"40998 Konopelski Greens, Mitchellport, Tajikistan",MW,94084
+306,2,120,76,37,105,39.7,0.215,29,0,Malcolm,Sipes,Malcolm Sipes,"599 Marlee Isle, Bartolettichester, Greenland",PW,53109
+308,0,137,68,14,148,24.8,0.143,21,0,Shaniya,Cole,Shaniya Cole,"02276 Bradtke Gardens, East Colinberg, Sao Tome and Principe",BJ,64988-5758
+311,6,80,66,30,0,26.2,0.313,41,0,Rebekah,Heidenreich,Rebekah Heidenreich,"666 Kemmer Spurs, New Aylin, Jersey",PG,13515-0823
+312,0,106,70,37,148,39.4,0.605,22,0,Garfield,McCullough,Garfield McCullough,"53291 Jarvis Burgs, Roobmouth, India",KZ,16259-2171
+314,3,113,50,10,85,29.5,0.626,25,0,Corine,Hudson,Corine Hudson,"588 Shields Pines, New Carmella, Haiti",AL,17536-8704
+316,2,112,68,22,94,34.1,0.315,26,0,Mallie,Marvin,Mallie Marvin,"328 Rempel Club, North Jarodbury, French Polynesia",CO,85099
+317,3,99,80,11,64,19.3,0.284,30,0,Elyssa,Dickens,Elyssa Dickens,"546 Kyleigh Hollow, West Saul, El Salvador",KN,21338-5867
+319,3,115,66,39,140,38.1,0.15,28,0,Frederique,Goyette,Frederique Goyette,"5629 Dach Way, Lake Domingoport, Virgin Islands, U.S.",PY,57150
+321,4,129,60,12,231,27.5,0.527,31,0,Michele,Macejkovic,Michele Macejkovic,"7310 Marquardt Coves, West Chelsealand, Lesotho",KM,71956
+325,2,112,75,32,0,35.7,0.148,21,0,Harrison,Skiles,Harrison Skiles,"8582 Briana Haven, Lake Denis, Peru",FM,55587-1175
+326,1,157,72,21,168,25.6,0.123,24,0,Tiffany,Beatty,Tiffany Beatty,"8268 Amiya Drive, North Lindsaytown, Fiji",LI,07327
+328,10,179,70,0,0,35.1,0.2,37,0,Alec,Runolfsdottir,Alec Runolfsdottir,"6655 Steuber Ports, East Jailynland, Liechtenstein",CK,90047
