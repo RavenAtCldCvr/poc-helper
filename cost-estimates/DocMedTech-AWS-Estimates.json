@@ -1,0 +1,287 @@
+{
+	"Name": "My Estimate",
+	"Total Cost": {
+		"monthly": "1336.90",
+		"upfront": "0.00",
+		"12 months": "16042.80"
+	},
+	"Metadata": {
+		"Currency": "USD",
+		"Locale": "en_US",
+		"Created On": "3/7/2023",
+		"Legal Disclaimer": "AWS Pricing Calculator provides only an estimate of your AWS fees and doesn't include any taxes that might apply. Your actual fees depend on a variety of factors, including your actual usage of AWS services.",
+		"Share Url": "https://calculator.aws/#/estimate?id=fb3ba1fa6cad543bb6925a5f199d82e6c6d687e7"
+	},
+	"Groups": {
+		"Services": [
+			{
+				"Service Name": "Amazon CloudWatch",
+				"Description": "CloudWatch",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "76.45",
+					"upfront": "0.00",
+					"12 months": "917.40"
+				},
+				"Properties": {
+					"Number of Metrics (includes detailed and custom metrics)": "20",
+					"Standard Logs: Data Ingested": "50 GB",
+					"Logs Delivered to CloudWatch Logs: Data Ingested": "50 GB"
+				}
+			},
+			{
+				"Service Name": "Amazon RDS for PostgreSQL",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "368.90",
+					"upfront": "0.00",
+					"12 months": "4426.80"
+				},
+				"Properties": {
+					"Storage volume": "General Purpose SSD (gp2)",
+					"Storage amount": "30 GB",
+					"Nodes": "1",
+					"Instance Type": "db.m5.large",
+					"Utilization (On-Demand only)": "100 %Utilized/Month",
+					"Deployment Option": "Multi-AZ",
+					"Pricing Model": "OnDemand"
+				}
+			},
+			{
+				"Service Name": "Application Load Balancer",
+				"Description": "ELB",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "47.60",
+					"upfront": "0.00",
+					"12 months": "571.20"
+				},
+				"Properties": {
+					"Number of Application Load Balancers": "1"
+				}
+			},
+			{
+				"Service Name": "Amazon ElastiCache",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "109.50",
+					"upfront": "0.00",
+					"12 months": "1314.00"
+				},
+				"Properties": {
+					"Nodes": "0",
+					"Instance type": "cache.r6gd.12xlarge",
+					"Utilization (On-Demand only)": "100 %Utilized/Month",
+					"Cache Engine": "Redis",
+					"Cache Node Type": "Memory optimized",
+					"Pricing strategy": "OnDemand"
+				}
+			},
+			{
+				"Service Name": "AWS Glue ETL jobs and interactive sessions",
+				"Description": "AWS Glue - Data Transformation",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "30.80",
+					"upfront": "0.00",
+					"12 months": "369.60"
+				},
+				"Properties": {
+					"Number of DPUs for Apache Spark job": "10",
+					"Number of DPUs for Python Shell job": "0.0625"
+				}
+			},
+			{
+				"Service Name": "AWS Glue DataBrew interactive sessions",
+				"Description": "AWS Glue - Data Transformation",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "240.41",
+					"upfront": "0.00",
+					"12 months": "2884.92"
+				},
+				"Properties": {
+					"Number of interactive sessions for DataBrew": "240",
+					"Number of nodes consumed for DataBrew job": "5"
+				}
+			},
+			{
+				"Service Name": "AWS Config",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "0.60",
+					"upfront": "0.00",
+					"12 months": "7.20"
+				},
+				"Properties": {
+					"Number of Configuration items recorded": "200"
+				}
+			},
+			{
+				"Service Name": "AWS Key Management Service",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "16.00",
+					"upfront": "0.00",
+					"12 months": "192.00"
+				},
+				"Properties": {
+					"Number of customer managed Customer Master Keys (CMK)": "10",
+					"Number of symmetric requests": "2000000"
+				}
+			},
+			{
+				"Service Name": "AWS Data Transfer",
+				"Description": "Data Transfer",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Amazon CloudFront": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "DynamoDB on-demand capacity",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "4.41",
+					"upfront": "0.00",
+					"12 months": "52.92"
+				},
+				"Properties": {
+					"Table class": "Standard",
+					"Average item size (all attributes)": "1 KB",
+					"Data storage size": "10 GB"
+				}
+			},
+			{
+				"Service Name": "Amazon EKS",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "73.00",
+					"upfront": "0.00",
+					"12 months": "876.00"
+				},
+				"Properties": {
+					"Number of EKS Clusters": "1"
+				}
+			},
+			{
+				"Service Name": "Amazon EC2 ",
+				"Description": "Data Pipes",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "177.24",
+					"upfront": "0.00",
+					"12 months": "2126.88"
+				},
+				"Properties": {
+					"Tenancy": "Shared Instances",
+					"Operating system": "Linux",
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "0 TB per month",
+					"Workload": "Consistent, Number of instances: 3",
+					"Enable monitoring": "disabled",
+					"Advance EC2 instance": "m5.large",
+					"Pricing strategy": "Amazon EC2 Instance Savings Plans 1yr No Upfront",
+					"Snapshot Frequency": "No snapshot storage",
+					"Storage amount": "30 GB"
+				}
+			},
+			{
+				"Service Name": "Amazon QuickSight Readers, Authors, SPICE",
+				"Description": "Visualization",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "80.40",
+					"upfront": "0.00",
+					"12 months": "964.80"
+				},
+				"Properties": {
+					"Number of working days per month": "22",
+					"SPICE capacity in gigabytes (GB)": "50",
+					"Number of authors": "3",
+					"Number of readers": "10"
+				}
+			},
+			{
+				"Service Name": "S3 Standard",
+				"Description": "Data Lake Repository",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "25.60",
+					"upfront": "0.00",
+					"12 months": "307.20"
+				},
+				"Properties": {
+					"S3 Standard storage": "1 TB per month"
+				}
+			},
+			{
+				"Service Name": "Data Transfer",
+				"Description": "Data Lake Repository",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "0.00",
+					"upfront": "0.00",
+					"12 months": "0.00"
+				},
+				"Properties": {
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month"
+				}
+			},
+			{
+				"Service Name": "Amazon Route 53",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "0.50",
+					"upfront": "0.00",
+					"12 months": "6.00"
+				},
+				"Properties": {
+					"Hosted Zones": "1"
+				}
+			},
+			{
+				"Service Name": "AWS PrivateLink",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "45.49",
+					"upfront": "0.00",
+					"12 months": "545.88"
+				},
+				"Properties": {
+					"Number of VPC Interface endpoints per AWS region": "1"
+				}
+			},
+			{
+				"Service Name": "Data Transfer",
+				"Region": "Asia Pacific (Singapore)",
+				"Service Cost": {
+					"monthly": "40.00",
+					"upfront": "0.00",
+					"12 months": "480.00"
+				},
+				"Properties": {
+					"DT Inbound: Not selected": "0 TB per month",
+					"DT Outbound: Not selected": "0 TB per month",
+					"DT Intra-Region:": "2000 GB per month",
+					"Data transfer cost": "40"
+				}
+			}
+		]
+	}
+}
