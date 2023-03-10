@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="SqlDialectMappings">
+    <file url="file://$PROJECT_DIR$/pocs/docmedtech/athena/order_details-orders-product_category-users.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/pocs/docmedtech/athena/order_details-orders-product_category-users_vendors-deprecated.sql" dialect="GenericSQL" />
+    <file url="file://$PROJECT_DIR$/pocs/docmedtech/athena/order_details-orders.sql" dialect="GenericSQL" />
+  </component>
+</project>

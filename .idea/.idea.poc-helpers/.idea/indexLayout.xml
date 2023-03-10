@@ -5,6 +5,7 @@
       <Path>csv-utilities</Path>
       <Path>education</Path>
       <Path>machine-learning</Path>
+      <Path>pocs</Path>
     </attachedFolders>
     <explicitIncludes />
     <explicitExcludes />

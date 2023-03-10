@@ -1,0 +1,141 @@
+# This is the recipe used for cleaning the dataset for the initial dashboard. this recipe should only be referenced for data cleaning.
+# But the actual dataset for visualization is using the query in athena/order_details-orders-product_category-users.sql
+- Action:
+    Operation: DELETE
+    Parameters:
+      sourceColumns: >-
+        ["is_parent_order","parent_order_id","company_id","b_state","s_state","payment_id","tax_exempt","lang_code","storefront_id","weight","sd_ga_status","bc_status","is_mobile_order"]
+- Action:
+    Operation: JOIN
+    Parameters:
+      joinKeys: '[{"key":"order_id","value":"order_id"}]'
+      joinType: INNER_JOIN
+      leftColumns: >-
+        ["order_id","user_id","total","subtotal","discount","subtotal_discount","firstname","b_country","s_country","s_zipcode","profile_id","outstanding_amount"]
+      rightColumns: '["product_id","product_code","price","amount"]'
+      secondInput: >-
+        {"DataCatalogInputDefinition":{"CatalogId":"539406826939","DatabaseName":"order_details","TableName":"pom_store_prd_table_cscart_order_details_bwij_j5q1_table","TempDirectory":{"Bucket":"cc-datapipes-stg-apse1-ingestor-raw","Key":"databrew_staging/pharma-ecommerce-order-details-pom-store-prd-table-cscart-order-details-bwij-j5q1-table","BucketOwner":null}}}
+      secondaryDatasetName: order-details.pom-store-prd-table-cscart-order-details-bwij-j5q1-table
+- Action:
+    Operation: JOIN
+    Parameters:
+      joinKeys: '[{"key":"product_id","value":"product_id"}]'
+      joinType: INNER_JOIN
+      leftColumns: >-
+        ["order_id","user_id","total","subtotal","discount","subtotal_discount","firstname","b_country","s_country","s_zipcode","profile_id","outstanding_amount","product_id","product_code","price","amount"]
+      rightColumns: '["product"]'
+      secondInput: >-
+        {"DataCatalogInputDefinition":{"CatalogId":"539406826939","DatabaseName":"product_descriptions","TableName":"pom_store_prd_table_cscart_product_descriptions_3weq_55yy_table","TempDirectory":{"Bucket":"cc-datapipes-stg-apse1-ingestor-raw","Key":"databrew_staging/pharma-ecommerce-product-descriptions-pom-store-prd-table-cscart-product-descriptions-3weq-55yy-table","BucketOwner":null}}}
+      secondaryDatasetName: >-
+        product-descriptions.pom-store-prd-table-cscart-product-descriptions-3weq-55yy-table
+- Action:
+    Operation: JOIN
+    Parameters:
+      joinKeys: '[{"key":"user_id","value":"user_id"}]'
+      joinType: INNER_JOIN
+      leftColumns: >-
+        ["order_id","user_id","total","subtotal","discount","subtotal_discount","firstname","b_country","s_country","s_zipcode","profile_id","outstanding_amount","product_id","product_code","price","amount","product"]
+      rightColumns: '["user_type","user_login"]'
+      secondInput: >-
+        {"DataCatalogInputDefinition":{"CatalogId":"539406826939","DatabaseName":"pharma_users","TableName":"pom_store_prd_table_cscart_users_9jyn_l0cw_table","TempDirectory":{"Bucket":"cc-datapipes-stg-apse1-ingestor-raw","Key":"databrew_staging/pharma-ecommerce-pharma-users-pom-store-prd-table-cscart-users-9jyn-l0cw-table","BucketOwner":null}}}
+      secondaryDatasetName: pharma-users.pom-store-prd-table-cscart-users-9jyn-l0cw-table
+- Action:
+    Operation: JOIN
+    Parameters:
+      joinKeys: '[{"key":"product_id","value":"product_id"}]'
+      joinType: INNER_JOIN
+      leftColumns: >-
+        ["order_id","user_id","total","subtotal","discount","subtotal_discount","firstname","b_country","s_country","s_zipcode","profile_id","outstanding_amount","product_id","product_code","price","amount","product","user_type","user_login"]
+      rightColumns: '["category_id"]'
+      secondInput: >-
+        {"DataCatalogInputDefinition":{"CatalogId":"539406826939","DatabaseName":"product_categories","TableName":"pom_store_prd_table_cscart_products_categories_uzli_aj7z_table","TempDirectory":{"Bucket":"cc-datapipes-stg-apse1-ingestor-raw","Key":"databrew_staging/pharma-ecommerce-product-categories-pom-store-prd-table-cscart-products-categories-uzli-aj7z-table","BucketOwner":null}}}
+      secondaryDatasetName: >-
+        product-categories.pom-store-prd-table-cscart-products-categories-uzli-aj7z-table
+- Action:
+    Operation: JOIN
+    Parameters:
+      joinKeys: '[{"key":"category_id","value":"category_id"}]'
+      joinType: INNER_JOIN
+      leftColumns: >-
+        ["order_id","user_id","total","subtotal","discount","subtotal_discount","firstname","b_country","s_country","s_zipcode","profile_id","outstanding_amount","product_id","product_code","price","amount","product","user_type","user_login"]
+      rightColumns: '["category"]'
+      secondInput: >-
+        {"DataCatalogInputDefinition":{"CatalogId":"539406826939","DatabaseName":"category_listing_descriptions","TableName":"pom_store_prd_table_cscart_category_descriptions_d7qv_5hn_table","TempDirectory":{"Bucket":"cc-datapipes-stg-apse1-ingestor-raw","Key":"databrew_staging/pharma-ecommerce-category-listing-descriptions-pom-store-prd-table-cscart-category-descriptions-d7qv-5hn-table","BucketOwner":null}}}
+      secondaryDatasetName: >-
+        category-listing-descriptions.pom-store-prd-table-cscart-category-descriptions-d7qv-5hn-table
+- Action:
+    Operation: MULTIPLY
+    Parameters:
+      functionStepType: MULTIPLY
+      sourceColumn1: price
+      sourceColumn2: amount
+      targetColumn: sales_amt
+- Action:
+    Operation: DELETE
+    Parameters:
+      sourceColumns: >-
+        ["user_id","discount","subtotal_discount","b_country","profile_id","outstanding_amount","product_id"]
+- Action:
+    Operation: REMOVE_COMBINED
+    Parameters:
+      collapseConsecutiveWhitespace: 'false'
+      removeAllPunctuation: 'false'
+      removeAllQuotes: 'false'
+      removeAllWhitespace: 'false'
+      removeCustomCharacters: 'false'
+      removeCustomValue: 'false'
+      removeLeadingAndTrailingPunctuation: 'false'
+      removeLeadingAndTrailingQuotes: 'false'
+      removeLeadingAndTrailingWhitespace: 'false'
+      removeLetters: 'false'
+      removeNumbers: 'false'
+      removeSpecialCharacters: 'true'
+      sourceColumn: firstname
+- Action:
+    Operation: REMOVE_COMBINED
+    Parameters:
+      collapseConsecutiveWhitespace: 'false'
+      removeAllPunctuation: 'false'
+      removeAllQuotes: 'false'
+      removeAllWhitespace: 'false'
+      removeCustomCharacters: 'false'
+      removeCustomValue: 'false'
+      removeLeadingAndTrailingPunctuation: 'false'
+      removeLeadingAndTrailingQuotes: 'false'
+      removeLeadingAndTrailingWhitespace: 'false'
+      removeLetters: 'false'
+      removeNumbers: 'false'
+      removeSpecialCharacters: 'true'
+      sourceColumn: product
+- Action:
+    Operation: REMOVE_COMBINED
+    Parameters:
+      collapseConsecutiveWhitespace: 'false'
+      removeAllPunctuation: 'false'
+      removeAllQuotes: 'false'
+      removeAllWhitespace: 'false'
+      removeCustomCharacters: 'false'
+      removeCustomValue: 'false'
+      removeLeadingAndTrailingPunctuation: 'false'
+      removeLeadingAndTrailingQuotes: 'false'
+      removeLeadingAndTrailingWhitespace: 'false'
+      removeLetters: 'false'
+      removeNumbers: 'false'
+      removeSpecialCharacters: 'true'
+      sourceColumn: category
+- Action:
+    Operation: REMOVE_COMBINED
+    Parameters:
+      collapseConsecutiveWhitespace: 'false'
+      removeAllPunctuation: 'false'
+      removeAllQuotes: 'false'
+      removeAllWhitespace: 'false'
+      removeCustomCharacters: 'false'
+      removeCustomValue: 'false'
+      removeLeadingAndTrailingPunctuation: 'false'
+      removeLeadingAndTrailingQuotes: 'false'
+      removeLeadingAndTrailingWhitespace: 'false'
+      removeLetters: 'false'
+      removeNumbers: 'false'
+      removeSpecialCharacters: 'true'
+      sourceColumn: product_code
