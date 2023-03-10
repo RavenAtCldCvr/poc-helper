@@ -104,13 +104,14 @@ public static class Program
         }, csvFileOption, destFileOption, columnsOption);
 
         var geoEncodingCommand = new Command("geocoding",
-            "Concatenate a single zipcode columns, and add new lat, long columns")  {
-            csvFileOption,destFileOption,columnsOption
+            "Concatenate a single zipcode columns, and add new lat, long columns")
+        {
+            csvFileOption, destFileOption, columnsOption
         };
         csvCommand.AddCommand(geoEncodingCommand);
 
         // Geocoding Command Not tested for batching, but tested for single invocation.
-        geoEncodingCommand.SetHandler( (csvFile, destFile, columns) =>
+        geoEncodingCommand.SetHandler((csvFile, destFile, columns) =>
         {
             IList<dynamic> records = ReadCsvAsRecords(csvFile!);
             // we will reuse httpclient per console command
@@ -122,6 +123,7 @@ public static class Program
             {
                 Console.WriteLine(response);
             }
+
             OverrideFileWithNewRecords(records, destFile!);
         }, csvFileOption, destFileOption, columnsOption);
 
@@ -146,6 +148,7 @@ public static class Program
 
                     record.Reviews = stringBuilder.ToString();
                 }
+
                 break;
             default:
                 Console.WriteLine("Appending default sized columns to csv records.");
@@ -156,9 +159,9 @@ public static class Program
     }
 
     // untested code
-    static IEnumerable<string> GetGeoLocation(HttpClient client, IList<dynamic> records, string zipCodeColumn, int batchSize, TimeSpan coolDownDuration)
+    private static IEnumerable<string> GetGeoLocation(HttpClient client, IList<dynamic> records, string zipCodeColumn,
+        int batchSize, TimeSpan coolDownDuration)
     {
-
         if (batchSize < 1)
         {
             throw new InvalidOperationException($"{nameof(batchSize)} cannot be less than 1");
@@ -186,11 +189,12 @@ public static class Program
         return data;
     }
 
-    private static async Task<HttpResponseMessage> InvokeGeocodingApi(HttpClient client, IList<dynamic> records, string zipCodeColumn, int index)
+    private static async Task<HttpResponseMessage> InvokeGeocodingApi(HttpClient client, IList<dynamic> records,
+        string zipCodeColumn, int index)
     {
         var builder = new UriBuilder("https://developers.onemap.sg/commonapi/search");
         NameValueCollection query = HttpUtility.ParseQueryString(builder.Query);
-        ((IDictionary<string, object?>) records[index]).TryGetValue(zipCodeColumn, out object? zipcode);
+        ((IDictionary<string, object?>)records[index]).TryGetValue(zipCodeColumn, out object? zipcode);
         query["searchVal"] = zipcode == null ? string.Empty : zipcode.ToString()?.Trim();
         query["returnGeom"] = "Y";
         query["getAddrDetails"] = "N";
@@ -198,7 +202,6 @@ public static class Program
         builder.Query = query.ToString();
         string url = builder.ToString();
         return await client.GetAsync(url);
-
     }
 
 

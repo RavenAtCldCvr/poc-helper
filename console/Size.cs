@@ -3,19 +3,20 @@
 
 namespace console;
 
-
 public enum Size
 {
     /// <summary>
-    /// Small
+    ///     Small
     /// </summary>
     S,
+
     /// <summary>
-    /// Medium
+    ///     Medium
     /// </summary>
     M,
+
     /// <summary>
-    /// Large
+    ///     Large
     /// </summary>
     L
 }
